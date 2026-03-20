@@ -2,7 +2,6 @@ from flask_mysqldb import MySQL
 from flask import Flask, render_template, request, redirect, url_for, flash
 import os
 import speech_recognition as sr
-import librosa
 import numpy as np
 
 
